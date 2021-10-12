@@ -1,0 +1,115 @@
+body {
+	color: rgb(45,45,45);
+	background_color : whitesmoke;
+	font-family: Helvetica, serif;
+	font-size: 16px ;
+	text-align: center;
+
+}
+h1{
+	color: darkred;
+	font-size:  40px;
+	letter-spacing: 1px;
+	font-weight : bolder;
+}
+h2{
+	color : rgb(35,35,35);
+	font-size : 30px ;
+	font-weight: bold;
+}
+h3{
+	color: rgb(50,50,50);
+	font-size: 20px;
+	font-weight : bold;
+}
+}
+a {
+
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color : #6B72E1;
+	font-weigt: 600 ;
+	font-size: 16px ;
+}
+
+a:hover {
+	color : rebeccapurple;
+}
+
+.container {
+	width:  700px;
+	margin: 40px auto;
+
+}
+
+@media(max-width:  760px) {
+
+.container {
+	width:  600px;
+}
+}
+
+@media(max-width:  400px) {
+	.container {
+		width: 300px 
+}
+}
+
+.card-white {
+	background color: white;
+	padding:  40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius:  4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius:  50%;
+	size : 50px;
+}
+
+.btn-blue {
+	margin: 30px;
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px ;
+}
+.btn-blue:hover {
+	background-color: hotpink;
+	color: indianred;
+} 
+
+.list-inline {
+	liste-style:  none;
+	padding-left:  0px;
+}
+.list-inline li {
+	display : inline; 
+	padding : 10px;
+}
+.list-inline i {
+	font-size:  50px;
+	color:  darkorange;
+}
+
+.list-inline i:hover {
+	color:  darkred;
+}
+
+#introduction p {
+	margin-bottom : 40px; 
+
+}
+
+#list-nostyle-nocenter{
+	liste-style:  none;
+	padding-left:  0px;
+}
+
+#list-nostyle-nocenter p  {
+	font-style: italic ;
+	font-style : bold; 
+	font-color : black;
+}
